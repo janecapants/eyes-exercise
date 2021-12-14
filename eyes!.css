@@ -1,0 +1,46 @@
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: white;
+    }
+
+    .eyes {
+      position: absolute;
+      top: 30%;
+      transform: translateY(-50%);
+      width: 100%;
+      text-align: center;
+      
+    }
+    .eye {
+      width: 140px;
+      height: 120px;
+      background: black;
+      display: inline-block;
+      margin: 40px;
+      border-radius: 50%;
+      position: relative;
+      overflow: hidden;
+    }
+    .ball {
+      width: 80px;
+      height: 80px;
+      background: brown;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+    
+
+    }
+
+    body {
+      background-image: url('face.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+    }
+    
+    
